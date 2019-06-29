@@ -40,7 +40,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="$(if [ "$OSTYPE" "==" "cygwin" ]; then cygpath -u 'C:\Users\space\Desktop\fill_course_hours\ENV'; else echo '/C/Users/space/Desktop/fill_course_hours/ENV'; fi;)"
+VIRTUAL_ENV="$(if [ "$OSTYPE" "==" "cygwin" ]; then cygpath -u 'C:\Users\space\Desktop\Course_Hours_AutoFiller\ENV'; else echo '/C/Users/space/Desktop/Course_Hours_AutoFiller/ENV'; fi;)"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

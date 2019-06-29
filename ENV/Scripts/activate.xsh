@@ -25,7 +25,7 @@ def _deactivate(args):
 _deactivate(["nondestructive"])
 aliases["deactivate"] = _deactivate
 
-$VIRTUAL_ENV = r"C:\Users\space\Desktop\fill_course_hours\ENV"
+$VIRTUAL_ENV = r"C:\Users\space\Desktop\Course_Hours_AutoFiller\ENV"
 
 $_OLD_VIRTUAL_PATH = $PATH
 $PATH = $PATH[:]
